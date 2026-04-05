@@ -30,7 +30,7 @@ export default function App() {
           {/* ADMIN / MANAGER */}
           <Route path="/spaces" element={user ? <Spaces /> : <Login />} />
 
-          {/* 🚫 ONLY ADMIN + MANAGER */}
+          {/*  ONLY ADMIN + MANAGER */}
           <Route
             path="/maintenance"
             element={
